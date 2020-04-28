@@ -1,4 +1,4 @@
-// else if statements
+// logical operators - OR || and AND &&
 const password = 'p@ss12';
 
 if(password.length >= 12 && password.includes('@')){
