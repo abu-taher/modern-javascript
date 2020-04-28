@@ -19,7 +19,7 @@ let ninjas = ['shaun', 'ryu', 'chun-li'];
 // let result = ninjas.indexOf('chun-li');
 // let result = ninjas.concat(['ken', 'crystal']);
 let result = ninjas.push('ken'); // this will return the length of the new array
-let result = ninjas.pop(); // this will return the value that popped of from the array
+let result = ninjas.pop(); // this will return the value that popped off from the array
 
 console.log(result);
 console.log(ninjas);
