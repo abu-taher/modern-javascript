@@ -31,7 +31,7 @@ let likes = 10;
 
 // console.log(likes);
 
-// NaN - not a number
+// NaN - not a number => It doesn't result as a number
 
 // console.log(5 / 'hello');
 // console.log(5 * 'hello');
