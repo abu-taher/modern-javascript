@@ -24,8 +24,8 @@ console.log(age >= 25);
 let name = 'shaun';
 
 console.log(name == 'shaun');
-console.log(name == 'Shaun');
-console.log(name > 'crystal');
+console.log(name == 'Shaun'); // small letters is greater than capital letters
+console.log(name > 'crystal'); // later letters in the alphapet is greater than earlier letters in the alphapet
 console.log(name > 'Shaun');
 console.log(name > 'Crystal');
 
