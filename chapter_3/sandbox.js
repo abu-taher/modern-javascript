@@ -1,4 +1,4 @@
-// Logical NOT
+// Logical NOT (!)
 const user = false;
 
 if(!user){
