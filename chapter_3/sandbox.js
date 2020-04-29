@@ -1,4 +1,4 @@
-// switch statements
+// switch statements => remember switch is using strict equality for check ===
 const grade = 'D';
 
 switch(grade){
@@ -18,7 +18,7 @@ switch(grade){
     console.log('you got an E!');
     break;
   default:
-    console.log('not a valid grade');
+    console.log('not a valid grade'); // we don't need break statement on default case
 }
 
 // using if statements
