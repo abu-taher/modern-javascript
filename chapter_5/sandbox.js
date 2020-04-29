@@ -9,8 +9,8 @@ console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
 // reference values
 
-userOne = { name: 'ryu', age: 30 };
-userTwo = userOne;
+const userOne = { name: 'ryu', age: 30 };
+const userTwo = userOne;
 console.log(userOne, userTwo);
 
 userOne.name = 'chun-li';
