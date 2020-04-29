@@ -16,6 +16,7 @@ let user = {
     // access the blogs here
     // console.log(this);
     console.log('this user has written these blogs:');
+    // IN ORDER TO USE (this) INSIDE A METHOD TO REFER TO THE ACTUALL OBJECT THAT THE METHOD IS ON, WE NEED TO USE A REGULAR FUNCTION NOT AN ARROW FUNCTION
     this.blogs.forEach(blog => {
       console.log(blog);
     })
