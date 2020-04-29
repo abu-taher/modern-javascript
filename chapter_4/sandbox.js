@@ -9,7 +9,7 @@ const greet = () => {
 let resultOne = greet();
 console.log(resultOne);
 
-// method
+// method => invoked it using dot notation (.)
 
 let resultTwo = name.toUpperCase();
 console.log(resultTwo);
