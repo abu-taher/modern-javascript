@@ -6,6 +6,11 @@
 // }
 
 // arrow function
+// const calcArea = function (radius) {
+//   return 3.14 * radius**2;
+// };
+
+// this is the shorter way to returning an arrow function with one parameter and one line on body
 const calcArea = radius => 3.14 * radius**2;
 
 const area = calcArea(5);
