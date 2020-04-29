@@ -18,4 +18,8 @@ console.log(user['name']);
 user['name'] = 'chun-li';
 console.log(user['name']);
 
+// sometime we have to use this way, especially if the key is a variable
+const key = 'location';
+console.log(user[key]);
+
 console.log(typeof user);
