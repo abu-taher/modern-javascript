@@ -1,10 +1,10 @@
 // variables & block scope
-let age = 30;
+let age = 30; // GLOBAL SCOPE
 
 if(true){
 
   // age = 40;
-  let age = 40;
+  let age = 40; // LOCAL SCOPE => ONLY VALID IN THAT CODE BLOCK
   let name = 'shaun';
   console.log('inside 1st code block:', age, name);
 
