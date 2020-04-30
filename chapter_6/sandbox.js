@@ -6,6 +6,8 @@ const button = document.querySelector('button');
 button.addEventListener('click', () => {
   const li = document.createElement('li');
   li.textContent = 'something new to do';
+
+  // append() VS prepend()
   //ul.appendChild(li);
   ul.prepend(li);
 });
