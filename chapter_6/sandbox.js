@@ -15,6 +15,7 @@ const content = document.querySelector('.content');
 // console.log(content.innerHTML);
 // content.innerHTML = '<h2>this is a new h2</h2>';
 
+// APPEND AN HTML ELEMENT TO AN EXISTING ONE
 // content.innerHTML += '<h2>this is an h2 added to the content</h2>';
 
 const people = ['mario', 'luigi', 'yoshi'];
