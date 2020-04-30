@@ -4,6 +4,7 @@ const article = document.querySelector('article');
 // console.log(Array.from(article.children));
 // console.log(article.children);
 
+// CONVERTING HTML COLLECTION TO AN ARRAY
 Array.from(article.children).forEach(child => {
   child.classList.add('article-element');
 });
