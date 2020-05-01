@@ -16,7 +16,9 @@ form.addEventListener('submit', e => {
   });
 
   // show the result
-  scrollTo(0, 0);
+  
+  // WHEN WE USE A PROPERTY OR METHOD FROM THE WINDOW OBJECT, WE DON'T ACTUALLY HAVE TO WRITE OUT window. => BEACUSE window IS THE GLOBAL OBJECT
+  scrollTo(0, 0); 
   result.querySelector('span').textContent = `${score}%`;
   result.classList.remove('d-none');
 
