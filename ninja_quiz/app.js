@@ -30,3 +30,9 @@ form.addEventListener('submit', e => {
   }, 10);
 
 });
+
+/* THE DIFFERENCE BETWEEN setTimeout() AND setInterval() METHODS */
+/*
+- setTimeout(): WILL FIRE A CALLBACK FUNCTION AFTER CERTIN AMOUNT OF TIME
+- setInterval(): KEEPS ON FIRING EVERY AMOUNT OF TIME
+*/
