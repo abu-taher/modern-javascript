@@ -12,11 +12,12 @@ button.addEventListener('click', () => {
 // items.forEach(item => {
 //   item.addEventListener('click', e => {
 //     console.log('event in LI');
-//     e.stopPropagation();
+//     e.stopPropagation(); // THAT IS GOING TO STOP THE EVENT BUBBLING UP FROM THIS POINT
 //     e.target.remove();
 //   });
 // });
 
+// EVENT DELEGATION
 ul.addEventListener('click', e => {
   // console.log('event in UL');
   console.log(e.target, e);
