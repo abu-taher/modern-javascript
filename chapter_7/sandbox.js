@@ -7,9 +7,11 @@ form.addEventListener('submit', e => {
   const username =  form.username.value;
   const usernamePattern = /^[a-zA-Z]{6,12}$/;
 
-  if(usernamePattern.test(username)){
-    feedback.textContent = 'that username is valid!'
-  } else {
-    feedback.textContent = 'username must contain only letters & be between 6 & 12 characters';
-  }
+  // if(usernamePattern.test(username)){
+  //   feedback.textContent = 'that username is valid!'
+  // } else {
+  //   feedback.textContent = 'username must contain only letters & be between 6 & 12 characters';
+  // }
+
+  usernamePattern.test(username) ? feedback.textContent = 'that username is valid!' : feedback.textContent = 'username must contain only letters & be between 6 & 12 characters';
 });
