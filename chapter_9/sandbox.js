@@ -1,3 +1,5 @@
+// filter() METHOD => WE USE IT IF WE WANT TO FILTER OUT CERTAIN ITEMS FROM AN ARRAY BASED ON A CERTAIN CONDITION
+
 const scores = [10, 30, 15, 25, 50, 40, 5];
 
 // const highScores = scores.filter(score => score > 20);
