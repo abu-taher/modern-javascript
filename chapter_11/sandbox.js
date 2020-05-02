@@ -12,7 +12,7 @@ console.log('getHours:', now.getHours());
 console.log('getMinutes:', now.getMinutes());
 console.log('getSeconds:', now.getSeconds());
 
-// timestamps
+// timestamps => THE NUMBER OF MILLISECOND SINCE THE FIRST OF JANUARY 1970
 console.log('timestamp:', now.getTime());
 
 // date strings
