@@ -14,10 +14,12 @@ const generateTemplate = todo => {
 addForm.addEventListener('submit', e => {
   
   e.preventDefault();
+  // trim() => TO REMOVE ANY WHITE SPACES BEFORE OR AFTER THE STRING
   const todo = addForm.add.value.trim();
 
   if(todo.length){
     generateTemplate(todo);
+    // reset() => RESET ALL THE INPUT FIELDS INSIDE THAT FORM
     addForm.reset();
   }
 
