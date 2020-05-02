@@ -1,14 +1,14 @@
 // example 1 - sorting strings
 const names = ['mario', 'shaun', 'chun-li', 'yoshi', 'luigi'];
 
-// names.sort();
-names.reverse();
+// names.sort(); // IT CHANGES THE ORIGINAL ARRAY
+names.reverse(); // IT CHANGES THE ORIGINAL ARRAY
 console.log(names);
 
 // example 2 - sorting numbers
 const scores = [10, 50, 20, 5, 35, 70, 45];
 
-// scores.sort();
+// scores.sort(); // IT'S LOOKING FOR THE FIRST DIGIT OF A NUMBER
 scores.reverse();
 console.log(scores);
 
@@ -21,6 +21,7 @@ const players = [
   {name: 'shaun', score: 70}
 ];
 
+// WE WILL USE A (COMPARE FUNCTION) AS A CALLBACK FUNCTION IN sort()
 // players.sort((a,b) => {
 //   if(a.score > b.score){
 //     return -1;
