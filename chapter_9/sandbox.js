@@ -1,3 +1,5 @@
+// reduce() Method => executes a reducer function (that you provide) on each element of the array, resulting in a single output value.
+
 // const scores = [10, 20, 60, 40, 70, 90, 30];
 
 // const result = scores.reduce((acc, curr) => {
