@@ -1,6 +1,6 @@
 # Index
 
- - **Lesson 5:** Adding JavaScript to a Web Page
+ - **Lesson 5:** [Adding JavaScript to a Web Page](https://github.com/abu-taher/modern-javascript/tree/lesson-5)
  - **Lesson 6:** The Browser Console
  - **Lesson 7:** Variables, Constants & Comments
  - **Lesson 8:** Data Types at a Glance
