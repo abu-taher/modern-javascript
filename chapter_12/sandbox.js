@@ -20,6 +20,7 @@ const getTodos = (resource) => {
 
 };
 
+// CHAINING PROMISES
 getTodos('json/luigi.json').then(data => {
   console.log('promise 1 resolved:', data);
   return getTodos('json/mario.json');
