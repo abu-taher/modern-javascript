@@ -18,6 +18,7 @@ const getTodos = (resource, callback) => {
 
 };
 
+// CALLBACK HELL => IS NESTING CALLBACK WITHIN CALLBACK WITHIN CALLBACK ...
 getTodos('json/luigi.json', (err, data) => {
   console.log(data);
   getTodos('json/mario.json', (err, data) => {
