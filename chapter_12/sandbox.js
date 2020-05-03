@@ -1,3 +1,4 @@
+// CREATE A REQUEST OBJECT
 const request = new XMLHttpRequest();
 
 request.addEventListener('readystatechange', () => {
