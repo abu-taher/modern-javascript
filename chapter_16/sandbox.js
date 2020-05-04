@@ -3,6 +3,7 @@ const form = document.querySelector('form');
 
 const addRecipe = (recipe, id) => {
   let time = recipe.created_at.toDate();
+  // HTML CUSTOM DATA ATTRIBUTE STARTS WITH data-
   let html = `
     <li data-id="${id}">
       <div>${recipe.title}</div>
