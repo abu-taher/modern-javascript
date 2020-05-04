@@ -64,6 +64,7 @@ list.addEventListener('click', e => {
   }
 });
 
+// UNSUBSCRIBE FROM REAL-TIME DATABASE CHANGES
 button.addEventListener('click', e => {
   unsub();
   console.log('unsubscribed');
