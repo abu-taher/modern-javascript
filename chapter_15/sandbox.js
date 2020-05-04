@@ -3,6 +3,7 @@ function User(username, email){
   this.email = email;
 }
 
+// THIS IS HOW TO ATTACH METHODS TO OBJECT, THIS IS HAPPENING UNDER THE HOOD WHEN WE USE CLASS SYNTAX
 User.prototype.login = function(){
   console.log(`${this.username} has logged in`);
   return this;
