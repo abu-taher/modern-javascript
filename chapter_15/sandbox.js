@@ -1,10 +1,12 @@
 // constructor functions
+
 // class User {
 //   constructor(username){
 //     this.username = username;
 //   }
 // }
 
+// THE OLDER WAY THAT WE CREATED OBJECTS USING CONSTRUCTOR FUNCTIONS BEFORE THE CLASS SYNTAX CAME ALONG
 function User(username, email){
   this.username = username;
   this.email = email;
