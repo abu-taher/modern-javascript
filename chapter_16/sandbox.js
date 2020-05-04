@@ -14,6 +14,7 @@ const addRecipe = (recipe, id) => {
   list.innerHTML += html;
 };
 
+// REAL-TIME DELETING DATA FROM UI
 const deleteRecipe = (id) => {
   const recipes = document.querySelectorAll('li');
   recipes.forEach(recipe => {
