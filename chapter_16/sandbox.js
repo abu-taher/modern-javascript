@@ -12,6 +12,7 @@ const addRecipe = (recipe) => {
   list.innerHTML += html;
 };
 
+// db.collection('recipes').get() => THIS IS A sync TASK AND WHAT THIS DOES IS RETURN A promise, SO WE CAN CHAIN .then() WITH IT
 db.collection('recipes').get().then(snapshot => {
   // console.log(snapshot);
   snapshot.docs.forEach(doc => {
