@@ -27,6 +27,7 @@ const userTwo = new User('mario', 'mario@thenetninja.co.uk');
 // userTwo.login();
 // userTwo.logout();
 
+// THIS METHODS CHAINING WORKS NOW BECAUSE WE EXPLICITLY RETURNING THE INSTANCE AT THE END OF EACH METHODS USING this KEYWORD
 userTwo.login()
   .incScore()
   .incScore()
