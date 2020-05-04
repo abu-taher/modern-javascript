@@ -15,11 +15,14 @@ User.prototype.logout = function(){
 
 // admin
 function Admin(username, email){
+  // THIS IS HOW WE INHERIT ALL THE PROPERTIES FROM User OBJECT TYPE
   User.call(this, username, email);
 }
 
+// THIS IS HOW WE ATTACH INHERTIED METHODS FROM User PROTOTYPE
 Admin.prototype = Object.create(User.prototype);
 
+// THIS IS HOW WE ATTACH A SPECIAL METHOD TO THE Admin OBJECT TYPE
 Admin.prototype.deleteUser = function(user){
   // delete the user
 };
