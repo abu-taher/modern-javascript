@@ -16,7 +16,7 @@
   - **Lesson 19:** [For Loops](https://github.com/abu-taher/modern-javascript/tree/lesson-19)
    - **Lesson 20:** [While Loops](https://github.com/abu-taher/modern-javascript/tree/lesson-20)
    - **Lesson 21:** [Do While Loops](https://github.com/abu-taher/modern-javascript/tree/lesson-21)
-    - **Lesson 22:** [If Statements](https://github.com/abu-taher/modern-javascript/tree/lesson-22)
+   - **Lesson 22:** [If Statements](https://github.com/abu-taher/modern-javascript/tree/lesson-22)
     - **Lesson 23:** [Else & Else If](https://github.com/abu-taher/modern-javascript/tree/lesson-23)
     - **Lesson 24:** [Logical Operators](https://github.com/abu-taher/modern-javascript/tree/lesson-24)
     - **Lesson 25:** [Logical NOT](https://github.com/abu-taher/modern-javascript/tree/lesson-25)
