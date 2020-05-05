@@ -24,7 +24,7 @@ class Chatroom {
   }
 }
 
-const chatroom = new Chatroom('gaming', 'shaun');
+const chatroom = new Chatroom('gaming', 'usama');
 
 chatroom.addChat('hello everyone')
   .then(() => console.log('chat added'))
