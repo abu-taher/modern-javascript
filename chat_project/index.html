@@ -52,19 +52,24 @@
   </div>
   
   
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+    <!-- We listed the firestore SDK -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-firestore.js"></script>
   <script>
     // Initialize Firebase
     var config = {
-      apiKey: "AIzaSyBSEjfIg32YR9X0w8vdvmEJ8VkdqVS85Gk",
-      authDomain: "udemy-js-ab45b.firebaseapp.com",
-      databaseURL: "https://udemy-js-ab45b.firebaseio.com",
-      projectId: "udemy-js-ab45b",
-      storageBucket: "udemy-js-ab45b.appspot.com",
-      messagingSenderId: "307507834502"
+      apiKey: "AIzaSyCYIgyrogeuSAjlFxsjWZG9VXyamtfKm5I",
+      authDomain: "udemy-modern-javascript-571f1.firebaseapp.com",
+      databaseURL: "https://udemy-modern-javascript-571f1.firebaseio.com",
+      projectId: "udemy-modern-javascript-571f1",
+      storageBucket: "udemy-modern-javascript-571f1.appspot.com",
+      messagingSenderId: "313099286775",
+      appId: "1:313099286775:web:4c237b83a806146973bbf2",
+      measurementId: "G-CER24SHBBY"
     };
     firebase.initializeApp(config);
+    // INITIALIZE FIREBASE CONNECTION
     const db = firebase.firestore();
   </script>
   <script src="scripts/chat.js"></script>
